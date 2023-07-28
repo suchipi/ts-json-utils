@@ -1,0 +1,32 @@
+{
+  "name": "@suchipi/ts-json-utils",
+  "version": "1.0.0",
+  "description": "Utility types/functions to be used when working with JSON in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "json",
+    "type",
+    "interface",
+    "value",
+    "object",
+    "array",
+    "parse",
+    "stringify"
+  ],
+  "author": "Lily Skye <me@suchipi.com>",
+  "repository": "suchipi/ts-json-utils",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "typescript-assert-utils": "^1.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
